@@ -1,0 +1,12 @@
+[package]
+name = "rlox"
+version = "0.1.0"
+edition = "2021"
+
+[lints.clippy]
+all = "warn"
+pedantic = "warn"
+nursery = "warn"
+
+[dependencies]
+thiserror = "1.0.61"
