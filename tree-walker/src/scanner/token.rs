@@ -1,3 +1,4 @@
+use std::fmt::Debug;
 use std::fmt::Display;
 
 #[allow(clippy::struct_field_names, dead_code)]
@@ -25,8 +26,6 @@ pub enum Literal {
     Number(f64),
     None,
 }
-
-use std::fmt::Debug;
 
 #[derive(Debug, PartialEq, Eq, Clone, Copy)]
 pub enum TokenType {
